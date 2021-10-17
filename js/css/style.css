@@ -1,0 +1,73 @@
+body{
+    background-color: #F08AB1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+h1{
+
+    font-family: 'Carattere', cursive;
+}
+.container{
+    background-color: #fff;
+    width: 20%;
+    height: 70vh;
+    margin: 100px auto;
+    padding: 50px;
+    box-shadow: 1px 7px 17px #888888;
+    border-radius: 10px;
+    text-align: left;
+}
+.cards-container{
+
+    background-color: white;
+    height: 30vh;
+    padding: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+
+}
+.card img{
+    width: 50px;
+float: left;  
+
+}
+p{
+margin-left: 60px;
+
+}
+.name{
+    font-weight: bold;
+    
+}
+.age{
+color:grey;
+margin-top: -20px;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+display: flex;
+margin:  auto auto 8px auto;
+width:300px;
+height: 30px;
+justify-content: center;
+border-color: white;
+border-style: solid;
+border-radius: 5px;
+}
+
+#buttonclear{
+    background-color: #F08AB1;
+    ;
+}
+
+#button1{
+    background-color: blue;
+}
+
+#button2{
+    background-color: red;
+}
+#button3{
+    background-color: green;
+}
